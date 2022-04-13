@@ -62,7 +62,7 @@ pip3 install ipython --user
 #pip install ipykernel==4.10 --user
 pip3 install ipykernel --user
 #pip3 install open3d-python --user
-pip3 install open3d==0.11.1
+pip3 install open3d
 pip3 install pymsgbox
 
 #checkout rovi_utils
@@ -80,4 +80,4 @@ sudo ln -s /usr/bin/python3 /usr/bin/python
 
 #build
 cd $CATKIN_WS
-catkin_make
+catkin build
